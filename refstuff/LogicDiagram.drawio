@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="5mDYHCusMRgCHXDkDL8T">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-1" value="Blueprint Interface: Damage System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="20" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-2" value="Blueprint actor component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="420" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-4" value="Custom apply damage" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-5" value="Float : Physical damage amount" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-6" value="Float : Magical damage amount" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-7" value="Float : True damage amount" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-8" value="Damage Type Enum" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-9" value="Actor : Damage Causer" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-10" value="Actor : Damage Victim" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-11" value="Damage Method Enum" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-12" value="Float : Damage Method Percentage" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-13" value="Apply Debuff" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-14" value="Data Table : Debuff Table" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-15" value="Actor : Damage Causer" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-17" value="Actor : Damage Victim" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-18" value="Damage Effect" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-21" value="Damage FX Type Enum" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-22" value="Float : Damage Amount" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-23" value="Damage Type Enum" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-24" value="Slate Color: Damage Numbers Color&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-25" value="Owner Update UI" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-26" value="Stats Enum" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-27" value="Boolean : Update All?" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-28" value="Float : Number To Update&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-29" value="String : Text To Update" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-30" value="Map : Name : Float : FinalStats" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-32" value="Init Stats" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-33" value="Data Table : Base Stats Table" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="530" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-35" value="Takes in a data table, converts it into a map and then starts a timer function which sorts out the Stats.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7.5" y="570" width="212.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-36" value="Event Apply Damage" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-37" value="First Switchs on an Enum based on the damage type which then calculates the raw damage value using method, then calculates the post mitigation damage after armour calculations and then sets the current health and triggers damage effects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="570" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-38" value="Event Apply Debuff" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-39" value="Starts a timer by event, which handles debuff logic then adds a debuff after converting the incoming data table into a map." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="570" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-40" value="Damage Effects &amp;amp; Update Stats UI" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="460" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-41" value="Sends a message to the owner based on the respective event to handle the logic themselves individually" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="570" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-42" value="Data Table : Debuff Table" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="530" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-44" value="All of the ones from custom apply damage" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="530" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3iUCeTPdhUt8A1HSsn1-45" value="All of the ones from owner update UI and damage effect" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="735" y="530" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
